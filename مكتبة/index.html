@@ -1,0 +1,85 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>sodabost</title>
+
+    <script src="js/angular-animate.js"></script>
+    <script src="js/angular-sanitize.js"></script>
+    <script src="js/ui-bootstrap-tpls-2.5.0.js"></script>
+
+
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-animate.js"></script>
+    <script src="lib/angular-sanitize.js"></script>
+    <script src="lib/ui-bootstrap-tpls-2.5.0.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+    <script src="js/myScript.js"></script>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body{background-image:url("imgPro/paper.jpg"); background-repeat:no-repeat;background-attachment:fixed;}
+        body{
+            padding-top: 10px
+        }
+    </style>
+
+
+</head>
+<body ng-app="myApp"   >
+
+<nav class="navbar  navbar-fixed-top   heightnav " >
+    <div class="navbar-header  ">
+        <button class="navbar-toggle btntogel " data-toggle="collapse" data-target="#c">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#"> <img src="img/1.png" alt="logo" class=" logo"></a>
+        <a class="navbar-brand  logoSty"  href="#"><span class="text-right" >مكتبة</span><span class="text-right">  المؤمن </span></a>
+
+    </div>
+    <div  class="collapse navbar-collapse listy navbar-right" id="c">
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class=" active" ><a ui-sref="main" class="navfont" style=" background-color:red;border-radius:5px;color:#ffffff">الصفحة الرئيسيه</a></li>
+
+            <!--<li><a ui-sref="#" class="navfont">المشروعات</a></li>-->
+            <li><a ui-sref="ahajes" class="navfont">استعر كتابك</a></li>
+
+            <li><a ui-sref="foraa" class="navfont">الفـــروع المكتبه </a></li>
+            <li><a ui-sref="estalam" class="navfont">البحث عن كتاب</a></li>
+
+            <li><a ui-sref="contact" class="navfont">اتصل بنا</a></li>
+            <li class=" login"  ><a ui-sref="login" class="navfont" >تسجيل الدخول</a> </li>
+
+        </ul>
+
+    </div>
+</nav>
+
+
+
+<div  style="margin-top: 150px">
+    <ui-view></ui-view>
+</div>
+
+
+
+<script src="lib/jquery.min.js"></script>
+
+
+<script src="lib/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+
+<!--animate-box-->
+</body>
+</html>
+

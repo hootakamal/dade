@@ -1,0 +1,64 @@
+<section class="container">
+    <div class="">
+
+    </div>
+    <div class="row" style="background-color: #ffffff;border-radius:20px" >
+        <div class="col-xs-10">
+
+            <h1 style="width: 100%;color:red;font-size:20pt;font-weight:bolder" align="center">لوحـــــة التحكــــم</h1>
+            <br>
+            <table>
+                <tr>
+                    <td style="width:400px"><input type="text" class="form-control" ng-model="search1" style="width:100%"></td>
+                    <td style="width:400px"><input type="text" class="form-control" ng-model="search2" style="width:100%"></td>
+                    <td style="width:400px"><input type="text" class="form-control" ng-model="search3" style="width:100%"></td>
+                </tr>
+            </table>
+
+
+            <hr>
+            <table class="table table-bordered">
+                <th>المدة</th><th>رقم الرخصه</th><th>مكان العمل</th><th>رقم الهاتف</th><th>النوع</th><th>العنوان</th><th>الاسم</th><th>رقم الحجز</th>
+                <tr ng-repeat="hej in hejsee|filter:search1">
+                    <td>{{hej.time1}}</td>
+                    <td>{{hej.numbercard}}</td>
+                    <td>{{hej.wwork}}</td>
+                    <td>{{hej.phone}}</td>
+                    <td>{{hej.type}}</td>
+                    <td>{{hej.address}}</td>
+                    <td>{{hej.name}}</td>
+                    <td>{{hej.id}}</td>
+                </tr>
+            </table>
+            <hr>
+
+            <div style="background-color:#0AABDB;border-radius:20px;padding:10px;margin-bottom:20px" ng-repeat="com in comment|filter:search2">
+                <p align="right" style="color:#7d0000;font-size:25px;font-weight:bolder">{{com.name}}</p>
+                <p align="right" style="color:#00fafa;font-size:22px;font-weight:bold">{{com.email}}</p>
+                <p align="right" style="color:#ffffff;font-size:19px;">{{com.masseg}}</p>
+            </div>
+
+
+        </div>
+
+
+        <div class="col-xs-2">
+
+            <img src="imgPro/modeer.jpg" alt="imge" class="img-circle" style="width:150px;height:150px;margin-top:15px;margin-bottom:15px">
+            <p align="right">المشرف العام</p>
+            <p align="right">ابوعبيدة امين معاذ</p>
+            <uib-accordion >
+                <div uib-accordion-group class="text-right panel-primary  " heading="الادراة" >
+                     <button class="btn btn-success btnManger" ng-click="hajes();">طلبات الايجار</button>
+
+
+                     <button class="btn btn-danger btnManger"  ng-click="comunt();">الرسايل والتعليقات</button>
+
+                    <br>
+                </div>
+            </uib-accordion>
+
+        </div>
+
+    </div>
+</section>
