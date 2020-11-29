@@ -1,0 +1,537 @@
+
+/** start nav bar*/
+.heightnav{
+
+    height:100px;
+
+}
+.logoSty{
+
+
+    margin-top: 45px;
+    font-size:27px;
+    font-weight: bolder;
+    color:red;
+
+}
+.logo{
+
+    width:85px;
+    height:85px;
+    margin-left:5px;
+}
+.listy{
+
+    margin-right:15px;
+    margin-top:20px ;
+    font-size:18px;
+
+
+}
+.navfont{
+    color:blue;
+    font-weight: bold;
+
+}
+.navfont:hover{
+    background-color:#ffffff;
+    color:red;
+
+
+}
+
+.sliderwidth{
+
+    height:640px;
+
+}
+.dropdown-menu>li>a{
+    color:blue;
+    font-size:17px;
+    margin:3px;
+}
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+    font-size:17px;
+    font-weight:bold;
+    background-color:red;
+    color:#ffffff;
+    border-radius:3px;
+
+}
+.btntogel{
+
+    background-color:red;
+    margin-top:30px;
+    color:#ffffff;
+}
+/**end nav bar*/
+/**start section 1*/
+.hederName{
+
+    margin-top:70px;
+    padding:10px;
+    margin-bottom:30px;
+    height:150px;
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.hederName2{
+    color:red;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:"Myriad Arabic"
+}
+
+.hederspan1{
+    color:red;
+    font-family: Bernard MT Condensed;
+}
+.hederspan2{
+    color:#000000;
+    font-family: Bernard MT Condensed;
+}
+.hederspan3{
+    color: red;
+    font-family: Bernard MT Condensed;
+}
+.imghead{
+    width:150px;
+    height:150px;
+    margin:5px;
+    margin-top:25px;
+
+}
+.story{
+
+    background-color: #F5F5F5;
+    padding:60px;
+}
+.storyAbout{
+    font-size:20px;
+    color:#737373;
+
+
+}
+
+
+.footerr>a
+{
+    margin-top:10px;
+    padding:10px;
+    border:2px solid #ffffff;
+    border-radius:80px;
+
+}
+.footerr>a:hover{
+    color:red;
+    font-size:30px;
+}
+
+/**start footer**/
+.footer{
+
+    background-color:#191E22;
+    height:250px;
+    color: #6A6E71;
+    padding: 20px;
+    text-align: center;
+
+}
+.fontAAlan{
+    font-size:24px;
+    color:red;
+    font-weight:bolder;
+
+}
+.fontAAlan1{
+    font-size:20px;
+    color:#0062cc;
+    font-weight:bold;
+}
+.storyAbout1{
+    font-weight:bold;
+    font-size:18px;
+    color:#737373;
+
+}
+.storyAbout2{
+    font-weight:bold;
+    font-size:18px;
+    color:#737373;
+    margin:10px;
+    margin-top:20px;
+
+
+}
+
+.story1{
+    background-color: #F5F5F5;
+
+}
+.imgAonw{
+    width: 100%;
+    height:400px;
+}
+.imgpro{
+    width:250px;
+    height: 250px;
+    margin-top:100px;
+
+}
+.font1{
+    font-size:30px;
+    color:blue;
+    font-weight: bolder;
+    margin-top:30px;
+}
+.font2{
+    font-size:23px;
+    color:red;
+    margin-top:10px;
+    font-weight:bolder;
+}
+.font3{
+    color:blue;
+    font-size:19px;
+    margin-top:3px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+.footerr1{
+    margin-bottom:20px;
+}
+
+.rmaFont{
+    font-size:40px;
+    color:#ffffff;
+    font-weight:bolder;
+    background-color:blue;
+    border: 3px solid red;
+    border-radius:20px;
+
+
+}
+.rmaImg{
+
+    width:850px;
+    height:500px;
+
+}
+.ramdpar1{
+    margin-top:40px;
+    border:3px solid blue;
+    border-radius:10px;
+    color:blue;
+    font-size:19px;
+    padding:30px;
+    font-weight:bold;
+
+}
+.story2{
+    font-size:20px;
+    font-weight:bold;
+    color:blue;
+    margin-top:50px;
+    margin-bottom:30px;
+
+}
+
+/**start page ramadan*/
+
+.imgAonw1{
+    margin-bottom:50px;
+}
+
+.imgFarhat{
+
+    padding:5px;
+    margin:5px;
+    margin-top:100px;
+    margin-bottom:100px;
+    border: 3px solid blue;
+    border-radius:10px;
+
+
+
+}
+
+.imgFarhat1{
+    width:100%;
+    height:300px;
+
+
+}
+.farha{
+    background-color: #F5F5F5;
+
+    border-bottom:20px solid blue;
+}
+.farhFont{
+    font-size:40px;
+    color:#800080;
+    font-weight:bolder;
+    background-color:#FFA500;
+    border: 3px solid blue;
+    border-radius:20px;
+}
+.btnalhajes{
+    margin:20px;
+    width:95%;
+    height:50px;
+    background-color:#ffffff;
+    border: 3px solid Green;
+    border-radius: 0 20px 20px 20px;
+
+}
+
+.btnalhajes1{
+
+    color:red;
+    font-size: 20px;
+    font-weight:bold;
+
+
+}
+
+
+
+.menue1 {
+    width:90%;
+    margin-top: 50px;
+
+
+}
+.menue1 ul {
+    list-style: none;
+
+
+
+}
+.menue1 ul li {
+    margin-top: 20px;
+    font-family: jf flat;
+    font-size: 18px;
+
+    background-color: white;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 5px 0px 10px #fff;
+    -webkit-transition:padding-left 0.6s;
+    color: red;
+
+
+
+
+}
+.menue1 ul li>a {
+
+    text-align: right;
+    color:red;
+    font-weight: bolder;
+
+}
+
+.menue1 ul li:hover {
+
+
+    padding-left: 50px;
+
+}
+
+/***/
+
+
+.menue2 {
+    width:90%;
+    margin-top: 50px;
+
+
+}
+.menue2 ul {
+    list-style: none;
+
+
+
+}
+.menue2 ul li {
+    margin-top: 20px;
+    font-family: jf flat;
+    font-size: 20px;
+
+    background-color:Cyan;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 5px 0px 10px #fff;
+    -webkit-transition:padding-left 0.6s;
+    color: red;
+
+
+
+
+}
+.menue2 ul li>a {
+
+    text-align: right;
+    color:red;
+    font-weight: bolder;
+
+}
+
+.menue2 ul li:hover {
+
+
+    padding-left: 50px;
+
+}
+
+
+/***/
+.form12{
+    width:600px;
+    border:2px solid blue;
+    border-radius:20px;
+}
+.btnManger{
+    width:100%;
+    margin-bottom:8px;
+}
+
+/****/
+
+.marstyle >h5
+{
+    text-align: center;
+    font-size:17px;
+    color:red;
+    margin-top:10px;
+    padding:5px;
+}
+.marstyle >p
+{
+    text-align: center;
+    font-size:14px;
+    color:blue;
+    padding:5px;
+    margin-top:5px;
+
+}
+.marstyle >h6
+{
+    text-align: center;
+    font-size:20px;
+    color:red;
+    padding:10px;
+    margin-top:20px;
+
+}
+
+/****/
+
+
+
+/* ------------------------------------------------------------------------------
+	 Works
+-------------------------------------------------------------------------------*/
+.work {
+    -moz-box-shadow: 0 0 0 1px #fff;
+    -webkit-box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #fff;
+    overflow: hidden;
+    position: relative;
+}
+.work img {
+    width: 100%;
+    height: 100%;
+}
+.work .overlay {
+    background: rgba(0, 174, 218, 0.9);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -moz-transition: opacity, 0.3s;
+    -o-transition: opacity, 0.3s;
+    -webkit-transition: opacity, 0.3s;
+    transition: opacity, 0.3s;
+}
+.work .overlay-caption {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.work h5, .work p, .work img {
+    -moz-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    -webkit-transition: all, 0.5s;
+    transition: all, 0.5s;
+}
+.work h5, .work p {
+    color: #fff;
+    margin: 0;
+    opacity: 0;
+}
+.work span {
+    font-size: 45px;
+}
+.work h5 {
+    margin-bottom: 5px;
+    -moz-transform: translate3d(0, -200%, 0);
+    -ms-transform: translate3d(0, -200%, 0);
+    -webkit-transform: translate3d(0, -200%, 0);
+    transform: translate3d(0, -200%, 0);
+}
+.work p {
+    -moz-transform: translate3d(0, 200%, 0);
+    -ms-transform: translate3d(0, 200%, 0);
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
+}
+.work-box:hover img {
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.work-box:hover .overlay {
+    opacity: 1;
+}
+.work-box:hover .overlay h5, .work-box:hover .overlay p {
+    opacity: 1;
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+/* ------------------------------------------------------------------------------
+	 Teams
+-------------------------------------------------------------------------------*/
+
+
+.btnpuy:hover{
+
+    width:100px;
+    background-color:green;
+    border-radius: 20px 0px 20px 0px ;
+
+}
+
+.btnpuy{
+
+    width:70px;
+    border-radius: 5px;
+}

@@ -1,0 +1,331 @@
+
+.container1{
+    margin-left:30px;
+    margin-right:auto;
+}
+
+
+
+/** Sart nav bar */
+#remaz{
+    color: #f1f1f1;
+    text-transform: uppercase;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:20px;
+    font-family:'nexa_lightregular';
+    letter-spacing:2px;
+    line-height:0;
+    font-family:'nexa_lightregular';
+}
+/* Name of Store style*/
+span.tow{
+    color: #2ecc71;
+    font-family: Bernard MT Condensed;
+    font-size: 28px;
+}
+span.won{
+    color: red;
+    font-family: Bernard MT Condensed;
+    font-size:28px;
+}
+
+
+/**start section 1*/
+.pading{
+    width:32%;
+    margin-top:10px;
+    margin-right:10px;
+    font-size:14px;
+    color:#8AA2CB;
+    text-align: center;
+ }
+.pading1{
+    width:32%;
+    margin-top:10px;
+    margin-right:10px;
+    font-size:14px;
+    color:#8AA2CB;
+    text-align: center;
+
+}
+.pading2{
+    width:32%;
+    margin-top:10px;
+    font-size:14px;
+    color:#8AA2CB;
+    text-align: center;
+}
+.font1{ /*style header in div section*/
+    font-size:20px;
+    font-weight:bolder;
+     color:#8AA2CB;
+}
+/** style form div of imge logo*/
+.imgeSize{
+    margin-bottom:13px;
+    width:33.333%;
+    height:100px;
+
+}
+
+.ouerWe{
+    height:300px;
+}
+#ouerWeImge{
+    width:100%;
+    height:100%;
+}
+.singeUp{
+    border:2px solid black;
+    border-radius:3px;
+
+}
+.btnSing{
+    border:2px solid black;
+    border-radius:3px;
+
+}
+.footerr>a
+{
+    margin-top:10px;
+    padding:10px;
+    border:2px solid #ffffff;
+    border-radius:80px;
+
+}
+.footerr>a:hover{
+    color:red;
+    font-size:30px;
+}
+
+/**start footer**/
+.footer{
+
+    background-color:#191E22;
+    height:200px;
+    color: #6A6E71;
+    padding: 20px;
+    text-align: center;
+
+}
+/**end footer*/
+
+.marstyle >h5
+{
+    text-align: center;
+    font-size:17px;
+    color:red;
+    margin-top:10px;
+    padding:5px;
+}
+.marstyle >p
+{
+    text-align: center;
+    font-size:14px;
+    color:blue;
+    padding:5px;
+    margin-top:5px;
+
+}
+.marstyle >h6
+{
+    text-align: center;
+    font-size:20px;
+    color:red;
+    padding:10px;
+    margin-top:20px;
+
+}
+
+.fontt1{
+    color:#8AA2CB;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+    margin-top:10px;
+}
+
+.fon2{
+    color:#fdfdfd;
+    font-size:15px;
+    text-align:center;
+    padding:10px;
+    margin-top:10px;
+}
+#font3{
+    margin-top:70px;
+    color:#bac4cb;
+    font-size:16px;
+    background:none;
+    border:3px solid #bac4cb;
+    border-radius:10px;
+}
+
+#font3:hover{
+    font-size:20px;
+    color:blue;
+    border:3px solid green;
+    border-radius:10px;
+
+}
+
+.navfont{
+    color:#ffffff;
+    font-size:17px;
+}
+.navfont:hover{
+    color:#ffffff;
+
+}
+
+#contacbody{
+    background-color:#1E202B;
+    height:600px;
+}
+
+.myForConat{
+    margin-top:30px;
+    background-color:#262936;
+    border: 2px solid #262936;
+    border-radius:10px;
+    height:300px;
+
+}
+#homeContac{
+    margin-top:30px;
+    background-color:#262936;
+    border: 2px solid #262936;
+    border-radius:20px;
+    height:50px;
+
+}
+#HederCont{
+    padding:10px;
+    margin-left:20px;
+
+}
+.inptCont{
+    width:100%;
+    height:35px;
+    background-color:#262936;
+    border: 2px solid #262936;
+    border-radius:20px;
+    margin:5px;
+
+}
+.inptCont:hover{
+    border:3px solid #0AABDB;
+    border-radius:20px;
+
+}
+.masgCont{
+    width:100%;
+    height:100px;
+    background-color:#262936;
+    border: 2px solid #262936;
+    border-radius:20px;
+    margin:5px;
+
+}
+.masgCont:hover{
+    border:3px solid #0AABDB;
+    border-radius:20px;
+}
+#butContac{
+    margin-left:80%;
+    border:2px solid #0AABDB ;
+    border-radius:15px;
+    background-color:#0AABDB;
+    color:#ffffff;
+
+
+}
+#butContac:hover{
+    border:2px solid #0AABDB ;
+    border-radius:15px 0 15px 0;
+    background-color:#0AABDB;
+    color:#ffffff;
+
+
+}
+.localCompny{
+    margin-top:140px;
+    padding:20px;
+}
+.phoneContac{
+    font-size:10px;
+    color:#ffffff;
+    padding:10px;
+
+
+}
+.divLogin{
+
+    height:100%;
+}
+.contentLogin{
+    background-color:#262936;
+    border:2px solid #262936 ;
+    border-radius:25px;
+    height:400px;
+}
+.divlogin2{
+  margin-top:30px;
+    border:3px solid #0AABDB;
+    border-radius:20px;
+}
+.login1{
+    padding-top:10px;
+    color:#ffffff;
+    font-size:13px;
+}
+.nameLogin{
+    font-size:17px;
+    color:#0AABDB;
+    text-align:center;
+    font-weight:bolder;
+}
+.txtlogin{
+    color:#0AABDB;
+    background-color:#1E202B;
+    border:3px solid #1E202B;
+    border-radius:20px;
+}
+.txtlogin:hover{
+    border:3px solid #0AABDB;
+
+}
+
+.btnLogin{
+    width:80%;
+    margin-left: 10%;
+    background-color:#0AABDB;
+    color:#ffffff;
+    border:1px solid #0AABDB;
+    border-radius:20px;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+.btnLogin:hover{
+   border:3px solid #1E202B;
+
+}
+.contntOrder{
+    margin-top:10px;
+    background-color:#262936;
+    border:2px solid #262936 ;
+    border-radius:25px;
+    height:100%;
+}
+.liOrder{
+    width:100%;
+    border:2px solid #262936;
+    background-color:#262936;
+    border-radius:30px;
+}
+.contntOrder1{
+    background-color:#1E202B;
+    height:100%;
+}
